@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Noto-Sans';
+  src: url('../assets/fonts/noto-sans-v21-latin-regular.woff2') format('woff2'),
+    url('../assets/fonts/noto-sans-v21-latin-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto-Sans';
+  src: url('../assets/fonts/noto-sans-v21-latin-700.woff2') format('woff2'),
+    url('../assets/fonts/noto-sans-v21-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat-v18-latin-700.woff2') format('woff2'),
+    url('../assets/fonts/montserrat-v18-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/roboto-v29-latin-500.woff2') format('woff2'),
+    url('../assets/fonts/roboto-v29-latin-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Avenir-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/Avenir-Black.woff2') format('woff2'),
+    url('../assets/fonts/Avenir-Black.woff2 format') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
