@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  background-color: #3498db;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main_header {
+  text-align: center;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header_title {
+  padding: 20px 0;
+  background-color: inherit;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider_interface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img_window {
+  position: relative;
+
+  width: 400px;
+  height: 200px;
+
+  overflow: hidden;  
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0px;
+  transform: translateX(-440px);
+  z-index: 2;
+}
+
+.slide {
+  margin-left: 40px;
+}
+
+.slide:first-child {
+  margin-left: 0;
+}
+
+button {
+  margin: 0 10px;
+  font-size: 18px;
+  z-index: 3; 
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  border-width: 0;
+}
+
+button:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+.poiters {
+  width: 400px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pointer {
+  margin: 0 6px;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pointer.active {
+  background-color: black;
+}
+
+.pointer:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+.pointer.active:hover {
+  background-color: black;
+}
