@@ -11,7 +11,7 @@ const widthOfslide = -440;
 let position = 1;
 let blockButtons = false;
 
-const numberOfImg = slide.length - 2;
+const numberOfImg = slide.length - 1;
 
 const initialization = () => {
   for (let i = numberOfImg; i > 0; i--) {
